@@ -1,12 +1,3 @@
-# DMenuForPaper
-> 配置简单，极其灵活的 Paper 菜单插件，同时兼容 Folia。
-
-### 安装
-前往 [Release](https://github.com/PayaHai/DMenuForPaper/releases) 页面下载最新版本Jar，放入`plugins`文件夹中即可。
-
-### 配置
-配置文件位于`plugins/DMenuForPaper`文件夹下，其中每个YML文件为一个页面，下面是单个页面的示例：
-```yaml
 # 您可以使用&代替原版的颜色符号§，如果您想要表达原始的&含义，请输入两遍&&。
 # & = §, && = &
 # 如果两个按钮表示同一个物品，则后面的按钮会覆盖前面的按钮。
@@ -33,11 +24,3 @@ buttons: # 按钮列表
     # 请注意，如果按钮没有设置 command 和 open，那么点击后不会执行任何操作，ui也不会关闭
     command: "say 你点击了按钮" # 玩家点击后执行的命令，以玩家身份执行，点击后ui自动关闭。可选
     open: "测试" # 点击后打开的页面，点击后ui自动关闭。可选
-```
-
-### 命令
-- /dmenu reload: 重载配置文件
-- /dmenu open <page>: 打开指定页面
-
-### 结尾
-遇到问题欢迎前往 [Issues](https://github.com/PayaHai/DMenuForPaper/issues) 页面或 QQ 群: [674416045](https://qm.qq.com/q/5wA9OBTY6Q) 反馈。
