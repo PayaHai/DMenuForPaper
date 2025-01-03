@@ -1,7 +1,7 @@
 name: DMenuForPaper
 version: '1.0-SNAPSHOT'
 main: cn.dzdstudio.dMenuForPaper.DMenuForPaper
-api-version: '1.21'
+api-version: '1.13'
 authors: [ HaiPaya ]
 description: 针对 Paper 开发的菜单
 folia-supported: true

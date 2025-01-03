@@ -1,0 +1,18 @@
+title: "&a&l测试"
+rows: 3
+
+buttons:
+  -
+    id: "0-26"
+    name: "边框"
+    icon: "minecraft:pink_stained_glass_pane"
+
+  -
+    id: "13"
+    name: "前往菜单"
+    icon: "minecraft:oak_log"
+    lore:
+      - "&c&l点击前往菜单"
+
+    command: "say 你点击了按钮"
+    open: "菜单"
